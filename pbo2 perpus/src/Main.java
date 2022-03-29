@@ -20,7 +20,6 @@ class Anggota {
     Anggota(String nama, int npm) {
         this.nama = nama;
         this.npm = npm;
-
     }
 
     void detailAnggota() {
@@ -29,7 +28,6 @@ class Anggota {
         System.out.println("------");
         System.out.println(" ");
         book.detailBuku();
-
     }
 }
 
@@ -49,7 +47,6 @@ class Buku{
         this.namaPengarang = namaPengarang;
         this.penerbit = penerbit;
         this.jumlahBuku = jumlahBuku;
-
     }
 
     void detailBuku(){
@@ -59,7 +56,6 @@ class Buku{
         System.out.println("Nama pengarang Buku : " + namaPengarang);
         System.out.println("Penerbit Buku : " + penerbit);
         System.out.println("Jumlah Buku yang Tersedia : " + jumlahBuku);
-
     }
 }
 
@@ -71,13 +67,11 @@ class Lokasi{
     Lokasi(String lokasiRak, int nomorRak){
         this.lokasiRak = lokasiRak;
         this.nomorRak = nomorRak;
-
     }
 
     void detailRak(){
         System.out.println("Lokasi Rak Buku : " + lokasiRak);
         System.out.println("Nomor Rak : " + nomorRak);
-
     }
 }
 
@@ -89,6 +83,5 @@ public class Main {
         mahasiswa.cariBuku(cari);
         mahasiswa.cariRak(buku);
         mahasiswa.detailAnggota();
-
     }
 }
